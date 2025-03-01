@@ -1,0 +1,23 @@
+{
+  "name": "ms-estate-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "prisma": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
